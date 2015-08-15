@@ -1,0 +1,19 @@
+/*页码样式*/
+a{ text-decoration: none;}
+.nc_news_pages{text-align: center; margin: 15px auto; }
+.nc_news_pages a.page,.nc_news_pages span.page{ display:inline-block; width:19px; height: 19px; line-height: 19px; text-align: center; border: 1px solid #c1c1c1; color:#999999; font-size:14px; font-weight:bold; margin: 0 5px;
+background: #fefefe;
+background:-webkit-linear-gradient(top,#fefefe,#f0f0f0);
+background:-moz-linear-gradient(top,#fefefe,#f0f0f0);
+background:-ms-linear-gradient(top,#fefefe,#f0f0f0);
+background:-o-linear-gradient(top,#fefefe,#f0f0f0);
+background:linear-gradient(top,#fefefe,#f0f0f0);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#f0f0f0'); /* IE6,IE7 */
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#f0f0f0')"; /* IE8 */}
+.nc_news_pages a.page_active,.nc_news_pages span.page_active,.nc_news_pages a:hover{ border: 1px solid #7c9f3e; color:#FFFFFF; background: #8eb34d; text-decoration: none; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8eb34d', endColorstr='#8eb34d'); /* IE6,IE7 */
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#8eb34d', endColorstr='#8eb34d')"; /* IE8 */}
+.nc_news_pages span{ color: #999999; }
+.nc_cnew_line{height: 0;line-height: 0;overflow: hidden;margin: 11px 0;border-top: 1px dashed #aacb72;}
+
+/*加载更多*/
+.page_loadmore{ display: block; width: 100%; height: 28px; border: 1px solid #dbdbdb; background: #f2f2f2; text-align: center; line-height: 28px; margin-bottom: 15px; font-size: 14px; color: #999; }
